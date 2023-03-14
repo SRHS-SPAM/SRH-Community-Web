@@ -142,4 +142,4 @@ elif odd == True:
 elif high_card == True:
     print("하이 카드")
 
-    #깃 테스트용 주석
+
