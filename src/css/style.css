@@ -1,5 +1,79 @@
 @import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 /* Components */
 
 /* Screens */
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 8fr;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.school-name_header {
+  margin: 20px 50px 0px 50px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100px;
+  border-radius: 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.school-name {
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.header-nav {
+  list-style: none;
+  display: flex;
+  gap: 170px;
+}
+
+.menubar {
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.main {
+  display: grid;
+  gap: 20px;
+  padding: 40px;
+}
+
+.aa {
+  display: grid;
+  gap: 20px;
+
+  grid-template-columns: 2fr 1fr;
+}
+
+.first {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 40px;
+  margin: 10px 0px 0px 10px;
+}
+
+.second {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 10px 10px 0px 10px;
+  border-radius: 40px;
+}
+
+.third {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  display: flex;
+  border-radius: 40px;
+}
