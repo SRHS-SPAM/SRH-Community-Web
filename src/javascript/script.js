@@ -1,1 +1,3 @@
-console.log("Hello World!");
+function movePage(route) {
+    location.href = route;
+}

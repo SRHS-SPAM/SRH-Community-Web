@@ -8,8 +8,8 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + "/html/index.html");
 });
 
-app.get("/about", (req, res) => {
-    res.send("<h1>About</h1>");
+app.get("/login", (req, res) => {
+    res.sendFile(__dirname + "/html/login.html");
 });
 
 app.listen(3000, () => {
