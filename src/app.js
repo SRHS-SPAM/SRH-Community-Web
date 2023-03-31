@@ -6,13 +6,13 @@ const port = 3000;
 app.use("/", express.static("../src"));
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/html/index.html");
+    res.sendFile(__dirname + "/html/index.html");
 });
 
 app.get("/login", (req, res) => {
-  res.sendFile(__dirname + "/html/login.html");
+    res.sendFile(__dirname + "/html/login.html");
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}!`);
+    console.log(`Example app listening on port ${port}!`);
 });
