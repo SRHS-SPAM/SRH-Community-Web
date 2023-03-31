@@ -1,3 +1,3 @@
 function movePage(route) {
-    location.href = route;
+  location.href = route;
 }
