@@ -18,17 +18,13 @@
   align-items: center;
 }
 
-.school_name {
+.signup_h1 {
   font-size: 28px;
   margin-top: 70px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   line-height: 30px;
   margin-bottom: 60px;
-}
-
-.school_name em {
-  letter-spacing: 3px;
 }
 
 .stroke {

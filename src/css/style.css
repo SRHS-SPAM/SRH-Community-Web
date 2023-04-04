@@ -6,6 +6,7 @@
 /* Screens */
 @import "screens/mainpage.css";
 @import "screens/login.css";
+@import "screens/signup.css";
 
 * {
   box-sizing: border-box;
