@@ -14,7 +14,7 @@ app.get("/login", (req, res) => {
 });
 
 app.get("/signup", (req, res) => {
-    res.sendFile(__dirname + "/html/signup.html");
+  res.sendFile(__dirname + "/html/signup.html");
 });
 
 app.listen(port, () => {
