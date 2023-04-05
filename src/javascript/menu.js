@@ -4,10 +4,10 @@ const bar2 = document
   .addEventListener("click", floatBar);
 
 function floatBar() {
-  let con = document.getElementById("menubar_f");
-  if (con.style.display == "none") {
-    con.style.display = "flex";
+  let dis = document.getElementById("menubar_f");
+  if (dis.style.display == "none") {
+    dis.style.display = "flex";
   } else {
-    con.style.display = "none";
+    dis.style.display = "none";
   }
 }
