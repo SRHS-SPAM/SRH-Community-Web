@@ -53,6 +53,12 @@
   z-index: 0;
 }
 
+.menubar_menuline {
+  left: 22px;
+  position: absolute;
+  bottom: 5px;
+}
+
 .menubar_menuline1 {
   height: 7px;
   width: 30px;

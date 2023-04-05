@@ -1,155 +1,156 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/src/css/style.css" />
-        <title>서울 로봇고등학교 커뮤니티</title>
-    </head>
-    <body>
-        <div class="header_main">
-            <div class="menu_main">
-                <div class="main_box">
-                    <span>공지사항</span>
-                </div>
-                <div class="main_box">
-                    <span>급식</span>
-                </div>
-                <div class="main_box">
-                    <span>커뮤니티</span>
-                </div>
-                <div class="main_box">
-                    <span>캘린더</span>
-                </div>
-            </div>
-            <div class="date">20XX.XX.XX (X)</div>
-            <div class="info">
-                <div class="home_login" id="/login" onclick="movePage(id)">
-                    LOG IN
-                </div>
-                <div class="bars" id="bar" onclick="floatBar()">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <title>서울 로봇고등학교 커뮤니티</title>
+  </head>
+  <body>
+    <div class="header_main">
+      <div class="menu_main">
+        <div class="main_box">
+          <span>공지사항</span>
         </div>
+        <div class="main_box">
+          <span>급식</span>
+        </div>
+        <div class="main_box">
+          <span>커뮤니티</span>
+        </div>
+        <div class="main_box">
+          <span>캘린더</span>
+        </div>
+      </div>
+      <div class="date">20XX.XX.XX (X)</div>
+      <div class="info">
+        <div class="home_login" id="/login" onclick="movePage(id)">LOG IN</div>
+        <div class="bars" id="bar" onclick="floatBar()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
 
-        <div class="menubar" id="menubar_f" style="display: none">
-            <div class="menu_top" onclick="floatBar()">
-                <div class="menubar_line"></div>
-                <div class="menubar_menuline1"></div>
-                <div class="menubar_menuline2"></div>
-                <div class="menubar_menuline3"></div>
-            </div>
-            <div class="menu_bottom">
-                <div class="menu_column">마이페이지</div>
-                <div class="menu_column">설정</div>
-                <div class="menu_column">문의하기</div>
-                <div class="menu_column">로그아웃</div>
-            </div>
+    <div class="menubar" id="menubar_f" style="display: none">
+      <div class="menu_top">
+        <div class="menubar_line">
+          <div class="menubar_menuline" onclick="floatBar()">
+            <div class="menubar_menuline1"></div>
+            <div class="menubar_menuline2"></div>
+            <div class="menubar_menuline3"></div>
+          </div>
         </div>
+      </div>
+      <div class="menu_bottom">
+        <div class="menu_column">마이페이지</div>
+        <div class="menu_column">설정</div>
+        <div class="menu_column">문의하기</div>
+        <div class="menu_column">로그아웃</div>
+      </div>
+    </div>
 
-        <div class="school_name_main">
-            <span class="name_eng">
-                <div class="school_logo" id="/" onclick="movePage(id)">
-                    <img src="/src/image/logo.png" width="150px" />
-                </div>
-                Seoul Robot Highschool
-            </span>
-            <div class="border">
-                <div class="line"></div>
-                <span class="name_ko">서울로봇고</span>
-                <div class="line"></div>
-            </div>
+    <div class="school_name_main">
+      <span class="name_eng">
+        <div class="school_logo" id="/" onclick="movePage(id)">
+          <img src="/src/image/logo.png" width="150px" />
         </div>
-        <div class="main_info">
-            <div class="mainbox">
-                <div class="notice">
-                    <div class="notice_name">주요 공지</div>
-                </div>
-                <div class="food">
-                    <div class="food_name">급식</div>
-                    <div class="food_status">점심</div>
-                    <div class="food_li">
-                        <ul class="food_list">
-                            <li>수수밥</li>
-                            <li>목살김치찌개</li>
-                            <li>추러스고구마맛탕</li>
-                            <li>가지무침</li>
-                            <li>고추치킨마요(와사비)</li>
-                            <li>오미자에이드</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="calender">
-                    <div class="month_year">March 2022</div>
-                    <div class="day">
-                        <div class="row">
-                            <li>SUN</li>
-                            <li class="op">28</li>
-                            <li>5</li>
-                            <li>12</li>
-                            <li>19</li>
-                            <li>26</li>
-                        </div>
-                        <div class="row">
-                            <li>MON</li>
-                            <li class="op">29</li>
-                            <li>6</li>
-                            <li>13</li>
-                            <li>20</li>
-                            <li>27</li>
-                        </div>
-                        <div class="row">
-                            <li>TUE</li>
-                            <li class="op">30</li>
-                            <li>7</li>
-                            <li>14</li>
-                            <li>21</li>
-                            <li>28</li>
-                        </div>
-                        <div class="row">
-                            <li>WED</li>
-                            <li>1</li>
-                            <li>8</li>
-                            <li>15</li>
-                            <li>22</li>
-                            <li>29</li>
-                        </div>
-                        <div class="row">
-                            <li>THU</li>
-                            <li>2</li>
-                            <li>9</li>
-                            <li>16</li>
-                            <li>23</li>
-                            <li>30</li>
-                        </div>
-                        <div class="row">
-                            <li>FRI</li>
-                            <li>3</li>
-                            <li>10</li>
-                            <li>17</li>
-                            <li class="today">24</li>
-                            <li>31</li>
-                        </div>
-                        <div class="row">
-                            <li>SAT</li>
-                            <li>4</li>
-                            <li>11</li>
-                            <li>18</li>
-                            <li>25</li>
-                            <li class="op">1</li>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        Seoul Robot Highschool
+      </span>
+      <div class="border">
+        <div class="line"></div>
+        <span class="name_ko">서울로봇고</span>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="main_info">
+      <div class="mainbox">
+        <div class="notice">
+          <div class="notice_name">주요 공지</div>
         </div>
+        <div class="food">
+          <div class="food_name">급식</div>
+          <div class="food_status">점심</div>
+          <div class="food_li">
+            <ul class="food_list">
+              <li>수수밥</li>
+              <li>목살김치찌개</li>
+              <li>추러스고구마맛탕</li>
+              <li>가지무침</li>
+              <li>고추치킨마요(와사비)</li>
+              <li>오미자에이드</li>
+            </ul>
+          </div>
+        </div>
+        <div class="calender">
+          <div class="month_year">March 2022</div>
+          <div class="day">
+            <div class="row">
+              <li>SUN</li>
+              <li class="op">28</li>
+              <li>5</li>
+              <li>12</li>
+              <li>19</li>
+              <li>26</li>
+            </div>
+            <div class="row">
+              <li>MON</li>
+              <li class="op">29</li>
+              <li>6</li>
+              <li>13</li>
+              <li>20</li>
+              <li>27</li>
+            </div>
+            <div class="row">
+              <li>TUE</li>
+              <li class="op">30</li>
+              <li>7</li>
+              <li>14</li>
+              <li>21</li>
+              <li>28</li>
+            </div>
+            <div class="row">
+              <li>WED</li>
+              <li>1</li>
+              <li>8</li>
+              <li>15</li>
+              <li>22</li>
+              <li>29</li>
+            </div>
+            <div class="row">
+              <li>THU</li>
+              <li>2</li>
+              <li>9</li>
+              <li>16</li>
+              <li>23</li>
+              <li>30</li>
+            </div>
+            <div class="row">
+              <li>FRI</li>
+              <li>3</li>
+              <li>10</li>
+              <li>17</li>
+              <li class="today">24</li>
+              <li>31</li>
+            </div>
+            <div class="row">
+              <li>SAT</li>
+              <li>4</li>
+              <li>11</li>
+              <li>18</li>
+              <li>25</li>
+              <li class="op">1</li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <script
-            src="https://kit.fontawesome.com/75ea5a755a.js"
-            crossorigin="anonymous"
-        ></script>
-        <script src="/src/javascript/script.js"></script>
-        <script src="/src/javascript/menu.js"></script>
-    </body>
+    <script
+      src="https://kit.fontawesome.com/75ea5a755a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/src/javascript/script.js"></script>
+    <script src="/src/javascript/menu.js"></script>
+  </body>
 </html>
