@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 .header_main {
   background-color: #fffdefd1;
   height: 110px;

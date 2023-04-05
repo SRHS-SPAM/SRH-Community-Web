@@ -1,7 +1,8 @@
 @import "reset.css";
 
 /* Components */
-@import "/css/components/arrow.css";
+@import "components/arrow.css";
+@import "components/menubar.css";
 
 /* Screens */
 @import "screens/mainpage.css";
