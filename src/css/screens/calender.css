@@ -1,0 +1,32 @@
+h1 {
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  top: 57px;
+  text-align: center;
+  letter-spacing: 0.235em;
+  color: #ffffff;
+}
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.Calender_background {
+  position: absolute;
+  width: 850px;
+  height: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+
+  /* green */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #286246;
+  border-radius: 40px;
+  z-index: -1;
+}
