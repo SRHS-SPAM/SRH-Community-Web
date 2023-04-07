@@ -1,12 +1,14 @@
-h1 {
+.Calender_text {
+  display: flex;
   position: relative;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 77px;
-  top: 57px;
-  text-align: center;
+  top: 27px;
+  justify-content: center;
+  align-items: center;
   letter-spacing: 0.235em;
   color: #ffffff;
 }
@@ -23,10 +25,17 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
   top: 30px;
-
-  /* green */
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     #286246;
   border-radius: 40px;
   z-index: -1;
+}
+
+.cal_bars {
+  position: absolute;
+  right: 65px;
+  top: 54px;
+  font-size: 50px;
+  color: #286246;
+  cursor: pointer;
 }

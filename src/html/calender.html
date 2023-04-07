@@ -8,9 +8,36 @@
     <title>달력</title>
   </head>
   <body>
-    <h1><span>Calender</span></h1>
-    <div class="Calender_background"></div>
-
+    <div>
+      <div class="Calender_background">
+        <span class="Calender_text">Calender</span>
+      </div>
+      <div class="cal_bars" id="bar" onclick="floatBar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
     <!-- 메뉴바 -->
+
+    <div class="menubar" id="menubar_f" style="display: none">
+      <div class="menu_top">
+        <div class="menubar_line">
+          <div class="menubar_menuline" onclick="floatBar()">
+            <div class="menubar_menuline1"></div>
+            <div class="menubar_menuline2"></div>
+            <div class="menubar_menuline3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="menu_bottom">
+        <div class="menu_column">마이페이지</div>
+        <div class="menu_column">설정</div>
+        <div class="menu_column">문의하기</div>
+        <div class="menu_column">로그아웃</div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/75ea5a755a.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
