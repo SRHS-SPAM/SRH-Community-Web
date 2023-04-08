@@ -14,11 +14,11 @@
             <div class="three"></div>
         </div>
         <form method="post" name="login">
-            <div class="signup_main">
-                <div class="signup_stroke">
-                    <div class="signup_box">
-                        <div class="signup_h1">회원가입</div>
-                        <div class="signup_id_box">
+            <div className="signup_main">
+                <div className="signup_stroke">
+                    <div className="signup_box">
+                        <div className="signup_h1">회원가입</div>
+                        <div className="signup_id_box">
                             <input
                                 id="signup_email"
                                 type="email"
@@ -44,18 +44,15 @@
                                 type="tel"
                                 placeholder="      전화번호"
                             />
-
-                            <div class="certification">
+                            <div className="certification">
                                 <input
                                     id="signup_cer"
                                     type="text"
                                     placeholder="      인증번호 입력"
                                 />
-
-                                <div class="cer_btn">인증번호</div>
+                                <div className="cer_btn">인증번호</div>
                             </div>
-
-                            <div class="student_info">
+                            <div className="student_info">
                                 <input
                                     id="ab"
                                     type="text"
@@ -72,21 +69,22 @@
                                     placeholder="      번호"
                                 />
                             </div>
-                            <div class="signup_login">
+                            <div className="signup_login">
                                 <span>계정이 있으신가요?</span>
                                 <span
-                                    class="sdl"
+                                    className="sdl"
                                     id="/login"
                                     onclick="movePage(id)"
                                     >로그인</span
                                 >
                             </div>
-                            <div class="signup_button">가입</div>
+                            <div className="signup_button">가입</div>
                         </div>
                     </div>
                 </div>
             </div>
         </form>
+
         <script src="/src/javascript/script.js"></script>
     </body>
 </html>
