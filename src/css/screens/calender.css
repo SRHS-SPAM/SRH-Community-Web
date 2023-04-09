@@ -39,3 +39,48 @@
   color: #286246;
   cursor: pointer;
 }
+
+.calender_1 {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  right: 10px;
+  left: 10px;
+  top: 10px;
+
+  background: #000000;
+  border-radius: 50px;
+}
+
+.calender_1_background {
+  position: absolute;
+  width: 770px;
+  height: 770px;
+  left: 58px;
+  top: 183px;
+
+  background: #286246;
+  border-radius: 50px;
+}
+.calender_2 {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  right: 10px;
+  top: 10px;
+  left: 10px;
+
+  background: #000000;
+  border-radius: 50px;
+}
+
+.calender_2_background {
+  position: absolute;
+  width: 770px;
+  height: 770px;
+  right: 58px;
+  top: 183px;
+
+  background: #286246;
+  border-radius: 50px;
+}
