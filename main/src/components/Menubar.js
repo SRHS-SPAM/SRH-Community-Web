@@ -12,11 +12,11 @@ export default function Menu() {
             <div
                 className="menubar"
                 id="menubar_f"
-                style={{ display: `${open} ? flex : none` }}
+                style={open ? { display: "flex" } : { display: "none" }}
             >
                 <div className="menu_top">
                     <div className="menubar_line">
-                        <div className="menubar_menuline" onclick="floatBar()">
+                        <div className="menubar_menuline" onClick={onClick}>
                             <div className="menubar_menuline1" />
                             <div className="menubar_menuline2" />
                             <div className="menubar_menuline3" />
@@ -37,6 +37,7 @@ export default function Menu() {
                     right: 6px;
                     flex-direction: column;
                     align-items: flex-end;
+                    display: none;
                 }
 
                 .menu_top {

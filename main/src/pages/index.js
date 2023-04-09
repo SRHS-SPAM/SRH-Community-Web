@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <script
                 src="https://kit.fontawesome.com/75ea5a755a.js"
-                crossorigin="anonymous"
+                crossOrigin="anonymous"
             ></script>
             <style jsx>{`
                 body {

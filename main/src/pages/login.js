@@ -19,18 +19,18 @@ export default function loginin() {
                                 <input
                                     id="userid"
                                     type="text"
-                                    placeholder="아이디"
+                                    placeholder="   아이디"
                                 />
                                 <input
                                     id="pwd"
                                     type="password"
-                                    placeholder="비밀번호"
+                                    placeholder="   비밀번호"
                                 />
                                 <div className="id_check">
                                     <input
                                         id="idckb"
                                         type="checkbox"
-                                        size="{10}"
+                                        size={10}
                                     />
                                     <span className="idsave">
                                         로그인 정보 저장하기
