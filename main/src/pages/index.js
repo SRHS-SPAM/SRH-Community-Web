@@ -28,9 +28,10 @@ export default function Home() {
                     <Link href={"/login"}>
                         <div className="home_login">LOG IN</div>
                     </Link>
+                    <Menubar />
                 </div>
             </div>
-            <Menubar />
+
             <div className="school_name_main">
                 <span className="name_eng">
                     <Link href={"/"}>

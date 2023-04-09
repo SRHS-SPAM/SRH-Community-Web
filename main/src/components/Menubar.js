@@ -37,7 +37,6 @@ export default function Menu() {
                     right: 6px;
                     flex-direction: column;
                     align-items: flex-end;
-                    display: none;
                 }
 
                 .menu_top {
