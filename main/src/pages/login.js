@@ -30,7 +30,7 @@ export default function loginin() {
                                     <input
                                         id="idckb"
                                         type="checkbox"
-                                        size={10}
+                                        size="{10}"
                                     />
                                     <span className="idsave">
                                         로그인 정보 저장하기

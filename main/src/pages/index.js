@@ -3,11 +3,16 @@ import Seo from "@/components/Seo";
 import Menubar from "@/components/Menubar";
 import Calender from "@/components/Calender";
 import Food from "@/components/Food";
+import Script from "next/script";
 
 export default function Home() {
     return (
         <>
             <Seo title="Home" />
+            <Script
+                src="https://kit.fontawesome.com/75ea5a755a.js"
+                crossOrigin="anonymous"
+            ></Script>
             <div className="header_main">
                 <div className="menu_main">
                     <div className="main_box">
@@ -61,10 +66,6 @@ export default function Home() {
                     <Calender />
                 </div>
             </div>
-            <script
-                src="https://kit.fontawesome.com/75ea5a755a.js"
-                crossOrigin="anonymous"
-            ></script>
             <style jsx>{`
                 body {
                     position: relative;
