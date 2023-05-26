@@ -61,7 +61,7 @@
 .com_lefttextbox {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
 .com_viewmenu {
@@ -115,7 +115,37 @@
 }
 
 .comwrtietext4 {
+  display: flex;
   flex-direction: row;
   font-size: 12px;
   height: 20px;
+  gap: 40px;
+}
+
+.favoritecount {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.favoritecount > i {
+  font-size: 20px;
+}
+
+.replycount {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.replycount > i {
+  font-size: 20px;
+}
+
+.favoritesubcount {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.replysubcount {
+  color: rgba(255, 255, 255, 0.75);
 }
