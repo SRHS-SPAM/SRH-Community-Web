@@ -9,6 +9,7 @@
 @import "screens/login.css";
 @import "screens/signup.css";
 @import "screens/calender.css";
+@import "screens/community.css";
 
 * {
   box-sizing: border-box;

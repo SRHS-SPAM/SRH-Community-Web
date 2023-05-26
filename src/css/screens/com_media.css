@@ -1,0 +1,32 @@
+@media screen and (min-width: 600px) {
+  #comunitybox {
+    width: 100%;
+  }
+
+  .com-subbox {
+    width: 100%;
+  }
+
+  .iconline {
+    width: calc(50% - 5px);
+    margin-top: 10px;
+  }
+
+  .comsubtext {
+    width: calc(50% - 5px);
+  }
+}
+
+/* @media screen and (max-width: 599px) {
+  #box h1::after {
+    content: "mobile";
+  }
+
+  .box_wrap > div.box2 {
+    width: 100%;
+  }
+
+  .box_wrap > div.box3 {
+    display: none;
+  }
+} */
