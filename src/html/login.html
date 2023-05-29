@@ -1,51 +1,39 @@
 <div>
-    <meta charset="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/css/style.css" />
-    <title>로그인</title>
-    <div className="arrow" id="/" onclick="movePage(id)">
-        <div className="one" />
-        <div className="two" />
-        <div className="three" />
-    </div>
-    <form method="post" name="login">
-        <div classname="main">
-            <div classname="stroke">
-                <div classname="box">
-                    <div classname="school_name">
-                        Seoul Robot <br />
-                        <em>Highschool</em>
-                    </div>
-                    <div classname="id_box">
-                        <input
-                            id="userid"
-                            type="text"
-                            placeholder="      아이디"
-                        />
-                        <input
-                            id="pwd"
-                            type="password"
-                            placeholder="      비밀번호"
-                        />
-                        <div classname="id_check">
-                            <input id="idckb" type="checkbox" size="{10}" />
-                            <span classname="idsave">로그인 정보 저장하기</span>
-                        </div>
-                        <div classname="login_button">로그인</div>
-                    </div>
-                    <div classname="more">
-                        <div classname="lost">비밀번호를 잊으셨나요?</div>
-                        <div
-                            classname="signup"
-                            id="/signup"
-                            onclick="movePage(id)"
-                        >
-                            회원가입
-                        </div>
-                    </div>
-                </div>
+  <meta charset="UTF-8" />
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/css/style.css" />
+  <title>로그인</title>
+  <div className="arrow" id="/" onclick="movePage(id)">
+    <div className="one"></div>
+    <div className="two"></div>
+    <div className="three"></div>
+  </div>
+  <form method="post" name="login">
+    <div classname="main">
+      <div classname="stroke">
+        <div classname="box">
+          <div classname="school_name">
+            Seoul Robot <br />
+            <em>Highschool</em>
+          </div>
+          <div classname="id_box">
+            <input id="userid" type="text" placeholder="      아이디" />
+            <input id="pwd" type="password" placeholder="      비밀번호" />
+            <div classname="id_check">
+              <input id="idckb" type="checkbox" size="{10}" />
+              <span classname="idsave">로그인 정보 저장하기</span>
             </div>
+            <div classname="login_button">로그인</div>
+          </div>
+          <div classname="more">
+            <div classname="lost">비밀번호를 잊으셨나요?</div>
+            <div classname="signup" id="/signup" onclick="movePage(id)">
+              회원가입
+            </div>
+          </div>
         </div>
-    </form>
+      </div>
+    </div>
+  </form>
 </div>
