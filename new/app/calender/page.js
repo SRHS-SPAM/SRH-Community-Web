@@ -12,10 +12,10 @@ export default function Calender() {
             </div>
             <Arrow location="/" />
             <div className="calender_1_background">
-                <CalenderMain num={1} />
+                <CalenderMain />
             </div>
             <div className="calender_2_background">
-                <CalenderMain num={2} />
+                <CalenderMain />
             </div>
 
             <style jsx>{`
