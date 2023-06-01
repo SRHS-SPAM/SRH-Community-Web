@@ -1,0 +1,71 @@
+.school_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.school_name_main {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.name_eng {
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #286246;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.name_ko {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #286246;
+}
+
+.border {
+    display: flex;
+}
+
+.line {
+    height: 1.5px;
+    width: 220px;
+    background-color: #286246;
+    margin: 15px 20px;
+}
+
+.main_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox {
+    background-color: #286246;
+    width: 1000px;
+    border-radius: 50px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+}
+
+.notice {
+    background-color: white;
+    margin: 45px 20px 45px 45px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.notice_name {
+    font-weight: 700;
+    margin-top: 10px;
+}
