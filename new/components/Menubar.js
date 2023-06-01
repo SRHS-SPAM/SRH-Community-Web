@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Script from "next/script";
 import styles from "./Menubar.module.css";
+import { signOut } from "next-auth/react";
 
 export default function Menubar() {
     const [open, setOpen] = useState(false);
@@ -33,7 +34,14 @@ export default function Menubar() {
                     <div className={styles.menu_column}>마이페이지</div>
                     <div className={styles.menu_column}>설정</div>
                     <div className={styles.menu_column}>문의하기</div>
-                    <div className={styles.menu_column}>로그아웃</div>
+                    <button
+                        className={styles.menu_column}
+                        onClick={() => {
+                            signOut();
+                        }}
+                    >
+                        로그아웃
+                    </button>
                 </div>
             </div>
             <Script
