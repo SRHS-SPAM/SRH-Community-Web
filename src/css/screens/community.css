@@ -42,17 +42,11 @@
     width: 100%;
     height: 100%;
 }
-
 .com_writeboxlist {
-<<<<<<<<< Temporary merge branch 1
-  display: flex;
-  justify-content: space-between;
-  gap: 80px;
-  max-width: 983px;
-=========
     display: flex;
     justify-content: space-between;
->>>>>>>>> Temporary merge branch 2
+    gap: 80px;
+    max-width: 983px;
 }
 
 .com_writelist {
