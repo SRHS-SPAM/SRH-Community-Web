@@ -1,5 +1,6 @@
-import styles from "./CalenderMain.module.css";
-export default function CalenderMain() {
+import styles from "./CalendarMain.module.css";
+
+export default function CalendarMain() {
     return (
         <>
             <div className={styles.calender_0}>

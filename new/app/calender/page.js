@@ -1,6 +1,6 @@
 "use client";
 import Arrow from "@/components/Arrow";
-import CalenderMain from "@/components/CalenderMain";
+import CalendarMain from "@/components/CalendarMain";
 import Seo from "@/components/Seo";
 
 export default function Calender() {
@@ -12,10 +12,10 @@ export default function Calender() {
             </div>
             <Arrow location="/" />
             <div className="calender_1_background">
-                <CalenderMain />
+                <CalendarMain />
             </div>
             <div className="calender_2_background">
-                <CalenderMain />
+                <CalendarMain />
             </div>
 
             <style jsx>{`
