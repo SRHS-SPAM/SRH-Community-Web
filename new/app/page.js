@@ -1,9 +1,11 @@
-import CalenderMain from "@/components/CalenderMain";
 import Food from "@/components/Food";
 import Nav from "@/components/Nav";
 import Seo from "@/components/Seo";
 import Link from "next/link";
 import styles from "./page.module.css";
+import Calendar from "react-calendar";
+import "react-calendar/dist/Calendar.css"; // css import
+import CalendarMain from "@/components/CalendarMain";
 
 export default function Home() {
     return (
@@ -37,7 +39,7 @@ export default function Home() {
                             <div className={styles.notice_name}>주요 공지</div>
                         </div>
                         <Food />
-                        <CalenderMain num={0} />
+                        <CalendarMain></CalendarMain>
                     </div>
                 </div>
             </main>
