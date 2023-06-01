@@ -6,18 +6,11 @@ import LoginPage from "./LoginPage";
 import LogoutPage from "./LogoutPage";
 
 export default async function login() {
-    let session = await getServerSession(authOptions);
     return (
         <>
             <Seo title="login" />
             <Arrow location="/" />
-            {session ? (
-                <span>
-                    {session.user.name}님 로그인됨 <LogoutPage></LogoutPage>
-                </span>
-            ) : (
-                <LoginPage></LoginPage>
-            )}
+            <LoginPage></LoginPage>
         </>
     );
 }

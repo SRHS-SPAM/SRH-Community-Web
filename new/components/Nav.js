@@ -28,13 +28,14 @@ export default async function Nav() {
                 <div className={styles.date}>20XX.XX.XX (X)</div>
                 <div className={styles.info}>
                     {session ? (
-                        <span>{session.user.name}님 로그인됨 </span>
+                        <div className={styles.home_login_2}>
+                            {session.user.name}님 환영합니다.
+                        </div>
                     ) : (
                         <Link href={"/login"}>
                             <div className={styles.home_login}>LOG IN</div>
                         </Link>
                     )}
-
                     <Menubar />
                 </div>
             </div>

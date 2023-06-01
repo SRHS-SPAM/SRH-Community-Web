@@ -58,3 +58,17 @@
     background-color: #286246;
     cursor: pointer;
 }
+
+.home_login_2 {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #286246;
+}
