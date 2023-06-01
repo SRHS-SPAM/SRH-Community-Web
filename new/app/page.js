@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import CalenderMain from "@/components/CalenderMain";
 import Food from "@/components/Food";
 import Nav from "@/components/Nav";

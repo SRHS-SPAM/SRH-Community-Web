@@ -1,8 +1,11 @@
 import Menubar from "@/components/Menubar";
+import { authOptions } from "@/pages/api/auth/[...nextauth]";
+import { getServerSession } from "next-auth";
 import Link from "next/link";
 import styles from "./Nav.module.css";
 
-export default function Nav() {
+export default async function Nav() {
+    let session = await getServerSession(authOptions);
     return (
         <>
             <div className={styles.header_main}>
@@ -24,9 +27,14 @@ export default function Nav() {
                 </div>
                 <div className={styles.date}>20XX.XX.XX (X)</div>
                 <div className={styles.info}>
-                    <Link href={"/login"}>
-                        <div className={styles.home_login}>LOG IN</div>
-                    </Link>
+                    {session ? (
+                        <span>{session.user.name}님 로그인됨 </span>
+                    ) : (
+                        <Link href={"/login"}>
+                            <div className={styles.home_login}>LOG IN</div>
+                        </Link>
+                    )}
+
                     <Menubar />
                 </div>
             </div>
