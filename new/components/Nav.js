@@ -1,11 +1,14 @@
 import Menubar from "@/components/Menubar";
 import { authOptions } from "@/pages/api/auth/[...nextauth]";
+import { format } from "date-fns";
 import { getServerSession } from "next-auth";
 import Link from "next/link";
 import styles from "./Nav.module.css";
 
 export default async function Nav() {
     let session = await getServerSession(authOptions);
+    const currentDate = new Date();
+    const currentDateTimeString = format(currentDate, "yyyy-MM-dd (E)");
     return (
         <>
             <div className={styles.header_main}>
@@ -25,7 +28,7 @@ export default async function Nav() {
                         </div>
                     </Link>
                 </div>
-                <div className={styles.date}>20XX.XX.XX (X)</div>
+                <div className={styles.date}>{currentDateTimeString}</div>
                 <div className={styles.info}>
                     {session ? (
                         <div className={styles.home_login_2}>
