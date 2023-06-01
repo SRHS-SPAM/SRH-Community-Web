@@ -1,10 +1,14 @@
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   #comunitybox {
     width: 100%;
   }
 
+  body {
+    background-color: black;
+  }
+
   .com-subbox {
-    width: 100%;
+    width: 50%;
   }
 
   .iconline {
@@ -13,6 +17,16 @@
   }
 
   .comsubtext {
+    width: calc(50% - 5px);
+  }
+
+  .com_maintextbox {
+    display: flex;
+    justify-content: center;
+    width: calc(50% - 5px);
+  }
+
+  .com_wrtielist {
     width: calc(50% - 5px);
   }
 }
