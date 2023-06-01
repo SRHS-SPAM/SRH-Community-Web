@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .comunitybox {
     display: grid;
     grid-template-rows: 100px 100px 1fr;
@@ -40,8 +44,10 @@
 }
 
 .com_writeboxlist {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  max-width: 983px;
 }
 
 .com_writelist {
