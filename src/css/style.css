@@ -10,6 +10,7 @@
 @import "screens/signup.css";
 @import "screens/calender.css";
 @import "screens/community.css";
+@import "screens/firstsignup.css";
 
 * {
   box-sizing: border-box;
