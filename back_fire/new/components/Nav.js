@@ -19,11 +19,9 @@ export default async function Nav() {
                     <div className={styles.main_box}>
                         <span>급식</span>
                     </div>
-                    <Link href="/community">
-                        <div className={styles.main_box}>
-                            <span>커뮤니티</span>
-                        </div>
-                    </Link>
+                    <div className={styles.main_box}>
+                        <span>커뮤니티</span>
+                    </div>
                     <Link href="/calender">
                         <div className={styles.main_box}>
                             <span>캘린더</span>

@@ -1,0 +1,39 @@
+.fsignup_1 {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  color: #8d9098;
+  overflow: auto;
+  padding: 15px;
+}
+
+.fsignupmain_1 {
+  padding: 20px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fsignupmain_1 input {
+  width: auto;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.fsigncheck_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fsigntxtbox {
+  width: auto;
+}
+
+.fsigntxtbox {
+  display: flex;
+  align-items: center;
+}

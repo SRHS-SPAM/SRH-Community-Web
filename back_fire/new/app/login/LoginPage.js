@@ -60,7 +60,7 @@ export default function LoginPage() {
                             <div className={styles.lost}>
                                 비밀번호를 잊으셨나요?
                             </div>
-                            <Link href={"/agree"}>
+                            <Link href="/signup">
                                 <div className={styles.signup}>회원가입</div>
                             </Link>
                         </div>
