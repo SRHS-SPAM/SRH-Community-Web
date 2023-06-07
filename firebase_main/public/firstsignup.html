@@ -1,17 +1,82 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/src/css/style.css" />
-        <title>회원가입</title>
-    </head>
-    <body>
-        <div class="arrow" id="/login" onclick="movePage(id)">
-            <div class="one"></div>
-            <div class="two"></div>
-            <div class="three"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <title>회원가입</title>
+  </head>
+  <body>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js"></script>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyCmRqN6b5Fwxm1n1L-ehvUDfG2Ps7iNl8s",
+        authDomain: "spam-community.firebaseapp.com",
+        projectId: "spam-community",
+        storageBucket: "spam-community.appspot.com",
+        messagingSenderId: "688597059889",
+        appId: "1:688597059889:web:87ad819a9476c1583d0810",
+        measurementId: "G-8054MRZWKY",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <div class="arrow" id="/login" onclick="movePage(id)">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+    </div>
+    <form method="POST" name="login">
+      <div class="signup_main">
+        <div class="signup_stroke">
+          <div class="signup_box">
+            <div class="signup_h1">회원가입</div>
+            <div class="signup_id_box">
+              <div class="fsignupmain_1">
+                <div class="fsignup_1">
+                  대충 아주아주 긴 회원가입 약관을 표시하기 위해 임시로 삽입하는 텍스트 아 목아파 뒤지겠는데 체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...광주는 최고다.
+                </div>
+                <div class="fsigncheck_1">
+                  <div class="fsigntxtbox">
+                    약관을 읽어보았으며 이에 동의합니다.
+                  </div>
+                  <div class="fsigncheckbox">
+                    <input type="checkbox" class="fsign_check">
+                  </div>
+                </div>
+              </div>
+              <div class="fsignupmain_1">
+                <div class="fsignup_1">
+                  대충 아주아주 긴 회원가입 약관을 표시하기 위해 임시로 삽입하는 텍스트 아 목아파 뒤지겠는데 체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...체육 대회날 아침부터 HTML 만지고 있는 모습이 정말로 레전드다...
+                </div>
+                <div class="fsigncheck_1">
+                  <div class="fsigntxtbox">
+                    약관을 읽어보았으며 이에 동의합니다.
+                  </div>
+                  <div class="fsigncheckbox">
+                    <input type="checkbox" class="fsign_check">
+                  </div>
+                </div>
+              </div>
+              <div class="fsignupmain_1">
+                <div class="fsigncheck_1">
+                  <div class="fsigntxtbox">위 약관에 대해 모두 동의합니다.</div>
+                  <div class="fsigncheckbox">
+                    <input type="checkbox" class="fsign_check" />
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="signup_button">확인</div>
+            </div>
+          </div>
         </div>
         <form method="POST" name="login">
             <div class="signup_main">
