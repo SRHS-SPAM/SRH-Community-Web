@@ -8,7 +8,7 @@
 }
 
 .fsignupmain_1 {
-  padding: 20px 50px 50px 50px;
+  padding: 20px 50px 10px 50px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -27,6 +27,7 @@
   gap: 50px;
   padding-left: 20px;
   padding-right: 20px;
+  border-top: solid #8d9098;
 }
 
 .fsigntxtbox {
@@ -36,4 +37,11 @@
 .fsigntxtbox {
   display: flex;
   align-items: center;
+}
+
+.fsign_check {
+  transform: scale(1.5);
+  width: auto;
+  height: 20px;
+  margin-top: 20px;
 }
