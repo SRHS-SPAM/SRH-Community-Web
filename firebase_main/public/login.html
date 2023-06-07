@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/css/style.css" />
     <title>로그인</title>
+    <script src="/backend/app.js"></script>
   </head>
   <body>
     <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
@@ -28,11 +29,14 @@
       const app = initializeApp(firebaseConfig);
       const analytics = getAnalytics(app);
     </script>
-    <div class="arrow" id="/" onclick="movePage(id)">
-      <div class="one"></div>
-      <div class="two"></div>
-      <div class="three"></div>
-    </div>
+    <a href="/index.html">
+      <div class="arrow" id="/" onclick="movePage(id)">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+    </a>
+
     <form method="post" name="login">
       <div class="main">
         <div class="stroke">
