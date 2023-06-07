@@ -1,0 +1,152 @@
+.comunitybox {
+    display: grid;
+    grid-template-rows: 100px 100px 1fr;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+.iconline {
+    position: fixed;
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px 40px 40px;
+    color: #286246;
+}
+
+.com_maintextbox {
+    display: flex;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+}
+
+.commaintext {
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    color: #286246;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #286246;
+}
+
+.comlinebox {
+    width: 100%;
+    height: 100%;
+}
+.com_writeboxlist {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    max-width: 983px;
+}
+
+.com_writelist {
+    padding: 55px 200px 0px 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.com_wrtietextbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.com_lefttextbox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.com_viewmenu {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.com_writesub {
+    background-color: #222222;
+    width: 450px;
+    height: 150px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.comwrtietext2 {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.comwrtietext3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    gap: 10px;
+}
+
+.com_righttextbox {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.com_writetime {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.com_viewmenu {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.com_righttextbox > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.comwrtietext4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    height: 20px;
+    gap: 40px;
+}
+
+.favoritecount {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.favoritecount > i {
+    font-size: 20px;
+}
+
+.replycount {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.replycount > i {
+    font-size: 20px;
+}
+
+.favoritesubcount {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.replysubcount {
+    color: rgba(255, 255, 255, 0.75);
+}

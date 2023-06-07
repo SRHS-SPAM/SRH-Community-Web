@@ -1,0 +1,101 @@
+.signup_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+}
+
+.signup_stroke {
+    width: 530px;
+    height: 850px;
+    background-color: #286246;
+    border-radius: 110px;
+}
+
+.signup_box {
+    width: 500px;
+    height: 820px;
+    background-color: #1a1a1a;
+    border-radius: 80px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup_h1 {
+    font-size: 28px;
+    margin-top: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+}
+
+.signup_id_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.fsignup_1 {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    color: #8d9098;
+    overflow: auto;
+    padding: 15px;
+}
+
+.fsignupmain_1 {
+    padding: 20px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup_id_box input {
+    background-color: #1a1a1a;
+    border: 1px solid #6a6767;
+    width: 330px;
+    height: 55px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.fsignupmain_1 input {
+    width: auto;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.fsigncheck_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fsigntxtbox {
+    width: auto;
+}
+
+.fsigntxtbox {
+    display: flex;
+    align-items: center;
+}
+
+.signup_button {
+    width: 330px;
+    height: 50px;
+    background-color: #4197fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}

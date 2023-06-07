@@ -14,16 +14,16 @@ export default function Home() {
             <main>
                 <div className={styles.school_name_main}>
                     <span className={styles.name_eng}>
-                        <Link href={"/"}>
-                            <div className={styles.school_logo}>
+                        <div className={styles.school_logo}>
+                            <Link href={"/"}>
                                 <img
                                     src="img/logo.png"
                                     width="150px"
                                     height="150px"
                                     alt="logo"
                                 />
-                            </div>
-                        </Link>
+                            </Link>
+                        </div>
                         Seoul Robot Highschool
                     </span>
                     <div className={styles.border}>
