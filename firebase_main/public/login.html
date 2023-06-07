@@ -8,6 +8,26 @@
     <title>로그인</title>
   </head>
   <body>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js"></script>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyCmRqN6b5Fwxm1n1L-ehvUDfG2Ps7iNl8s",
+        authDomain: "spam-community.firebaseapp.com",
+        projectId: "spam-community",
+        storageBucket: "spam-community.appspot.com",
+        messagingSenderId: "688597059889",
+        appId: "1:688597059889:web:87ad819a9476c1583d0810",
+        measurementId: "G-8054MRZWKY",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
     <div class="arrow" id="/" onclick="movePage(id)">
       <div class="one"></div>
       <div class="two"></div>
