@@ -9,14 +9,14 @@ body{
 }
 .name{
     margin-top: 60px;
-    width: 1700px;
+    width: 90em;
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
     border: 0;
 }
 .tag{
-    width: 1700px;
+    width: 90em;
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
@@ -26,7 +26,7 @@ body{
 }
 .write{
     vertical-align: bottom;
-    width: 1700px;
+    width: 90em;
     height: 500px;
     font-size: 20px;
     margin-top: 20px;
