@@ -1,10 +1,6 @@
 .fsignup_1 {
   width: 100%;
-<<<<<<< HEAD
   height: 150px;
-=======
-  height: 170px;
->>>>>>> develop
   background-color: white;
   color: #8d9098;
   overflow: auto;
@@ -12,11 +8,7 @@
 }
 
 .fsignupmain_1 {
-<<<<<<< HEAD
   padding: 20px 50px 10px 50px;
-=======
-  padding: 20px 50px 50px 50px;
->>>>>>> develop
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -35,10 +27,7 @@
   gap: 50px;
   padding-left: 20px;
   padding-right: 20px;
-<<<<<<< HEAD
   border-top: solid #8d9098;
-=======
->>>>>>> develop
 }
 
 .fsigntxtbox {
@@ -49,7 +38,6 @@
   display: flex;
   align-items: center;
 }
-<<<<<<< HEAD
 
 .fsign_check {
   transform: scale(1.5);
@@ -57,5 +45,3 @@
   height: 20px;
   margin-top: 20px;
 }
-=======
->>>>>>> develop
