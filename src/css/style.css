@@ -22,3 +22,8 @@ body {
   background-color: #fffdefd1;
   height: 100vh;
 }
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
