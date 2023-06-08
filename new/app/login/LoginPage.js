@@ -55,6 +55,12 @@ export default function LoginPage() {
                             >
                                 로그인
                             </button>
+                            <div className="anotherlogin">
+                                <img src="/src/image/google.png" />
+                                <img src="/src/image/facebook.jpg" />
+                                <img src="/src/image/Github.png" />
+                                <img src="/src/image/apple.png" />
+                            </div>
                         </div>
                         <div className={styles.more}>
                             <div className={styles.lost}>

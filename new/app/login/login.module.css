@@ -7,7 +7,7 @@
 
 .box {
     width: 500px;
-    height: 500px;
+    height: 530px;
     background-color: #1a1a1a;
     border-radius: 80px;
     display: flex;
@@ -22,7 +22,7 @@
     font-weight: 700;
     letter-spacing: 2px;
     line-height: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .school_name em {
@@ -31,7 +31,7 @@
 
 .stroke {
     width: 530px;
-    height: 530px;
+    height: 560px;
     background-color: #286246;
     border-radius: 110px;
 }
@@ -49,7 +49,6 @@
     border-radius: 5px;
     color: white;
     font-size: 16px;
-    padding: 10px;
 }
 
 #userid {
@@ -120,4 +119,19 @@
 
 .signup {
     cursor: pointer;
+}
+
+.anotherlogin {
+    width: 330px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.anotherlogin > img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 50%;
 }
