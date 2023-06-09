@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/f4e95cd8b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/css/screens/write.css" />
   </head>
   <body>
     <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
@@ -27,5 +32,19 @@
       const app = initializeApp(firebaseConfig);
       const analytics = getAnalytics(app);
     </script>
+
+    <div class="bar_container">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+    <input type="text" class="name" placeholder="제목 작성" />
+    <input type="email" class="tag" placeholder="태그" />
+    <textarea class="write" cols="30" rows="10"></textarea>
+    <div class="footer">
+      <div class="foot">수정</div>
+      <div class="foot">등록</div>
+    </div>
   </body>
 </html>
