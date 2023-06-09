@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <title>마이페이지</title>
+  </head>
+  <body>
+    <div class="mypage_mainbox">
+      <div class="my_topbox">
+        <div class="my_arrowbox">
+          <div class="arrow my_arrow" id="/login" onclick="movePage(id)">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+        </div>
+        <div class="my_maintxt">마이페이지</div>
+        <div class="bars mypage_bars" id="bar" onclick="floatBar()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="my_prfilecover">
+        <div class="my_profilebox">
+          <div class="my_profileimg">
+            <img src="/src/image/profile.png" alt="프로필 사진" />
+          </div>
+          <div class="my_userinfo">
+            <div class="my_username">김스팸</div>
+            <div class="my_usermail">kimspam@gamil.com</div>
+          </div>
+          <div class="my_rightbox">
+            <div class="my_modify">
+              <i class="fa-solid fa-pen-to-square"></i>
+            </div>
+            <div class="my_goto_github">
+              <img src="/src/image/Github.png" alt="깃허브" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my_gotomenu">
+        <div class="my_gotobox">
+          <div class="gotobox_subbox">
+            <div class="gotobox_icon">
+              <i class="fa-regular fa-calendar-days"></i>
+            </div>
+            <div class="gotobox_iconname">캘린더</div>
+          </div>
+          <div class="gotobox_subbox">
+            <div class="gotobox_icon">
+              <i class="fa-solid fa-bowl-food"></i>
+            </div>
+            <div class="gotobox_iconname">급식</div>
+          </div>
+          <div class="gotobox_subbox">
+            <div class="gotobox_icon">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <div class="gotobox_iconname">문의하기</div>
+          </div>
+          <div class="gotobox_subbox">
+            <div class="gotobox_icon">
+              <i class="fa-sharp fa-solid fa-bullhorn"></i>
+            </div>
+            <div class="gotobox_iconname">공지사항</div>
+          </div>
+          <div class="gotobox_subbox">
+            <div class="gotobox_icon">
+              <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="gotobox_iconname">설정</div>
+          </div>
+        </div>
+      </div>
+      <div class="my_casesubbox">
+        <div class="writemanager my_footerbox">글 관리</div>
+        <div class="my_logout my_footerbox">로그아웃</div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/75ea5a755a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

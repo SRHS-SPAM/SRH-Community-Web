@@ -1,0 +1,174 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.mypage_mainbox {
+  display: grid;
+  gap: 30px;
+  grid-template-rows: 130px;
+}
+
+.my_arrowbox {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.my_topbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  padding-top: 30px;
+}
+
+.my_maintxt {
+  background-color: #286246;
+  width: 650px;
+  height: 100px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.mypage_bars {
+  font-size: 50px;
+  margin-right: 0px;
+  padding-right: 20px;
+}
+
+.my_arrow {
+  position: relative;
+}
+
+.my_prfilecover {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my_profilebox {
+  background-color: #fdfdfd;
+  width: 1200px;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border: solid #c8c8c8;
+}
+
+.my_profileimg {
+  height: 80%;
+}
+
+.my_profileimg > img {
+  height: 100%;
+}
+
+.my_userinfo {
+  padding-left: 40px;
+  height: 100%;
+  width: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.my_username {
+  font-size: 40px;
+}
+
+.my_usermail {
+  font-size: 20px;
+}
+
+.my_rightbox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.my_modify {
+  font-size: 40px;
+}
+
+.my_goto_github > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.my_gotomenu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.my_gotobox {
+  width: 1200px;
+  height: 200px;
+  background-color: #fdfdfd;
+  border-radius: 20px;
+  border: solid #c8c8c8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.gotobox_subbox {
+  background-color: #286246;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.gotobox_icon > i {
+  font-size: 90px;
+  color: black;
+}
+
+.my_casesubbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 160px;
+  gap: 100px;
+}
+
+.my_footerbox {
+  width: 550px;
+  height: 140px;
+  background-color: #286246;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+}
